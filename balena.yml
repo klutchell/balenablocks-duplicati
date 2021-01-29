@@ -1,0 +1,20 @@
+version: "2"
+slug: "duplicati"
+name: "duplicati"
+type: "sw.application"
+assets:
+  - url: "https://github.com/balenablocks/duplicati"
+    name: "repository"
+  - url: "https://raw.githubusercontent.com/balenablocks/duplicati/main/logo.png"
+    name: "logo"
+data:
+  description: "store encrypted backups"
+  defaultDeviceType: "raspberrypi3"
+  supportedDeviceTypes:
+    - "raspberrypi4-64"
+    - "fincm3"
+    - "raspberrypi3"
+    - "raspberrypi3-64"
+    - "raspberrypi400-64"
+    - "intel-nuc"
+    - "genericx86-64-ext"

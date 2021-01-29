@@ -1,0 +1,17 @@
+version: "2.1"
+
+volumes:
+  duplicati:
+  # ... other volumes
+
+services:
+  duplicati:
+    image: linuxserver/duplicati:arm32v7-latest
+    environment:
+      PUID: "0"
+      PGID: "0"
+      CLI_ARGS: --webservice-interface=any
+    ports:
+      - 8200:8200/tcp
+    volumes:
+      - duplicati:/config
