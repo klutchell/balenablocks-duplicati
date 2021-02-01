@@ -8,7 +8,7 @@ assets:
   - url: "https://raw.githubusercontent.com/balenablocks/duplicati/main/logo.png"
     name: "logo"
 data:
-  description: "store encrypted backups"
+  description: "Free backup software to store encrypted backups online."
   defaultDeviceType: "raspberrypi3"
   supportedDeviceTypes:
     - "raspberrypi4-64"
