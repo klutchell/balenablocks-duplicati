@@ -1,14 +1,16 @@
-version: "2"
-slug: "duplicati"
 name: "duplicati"
+description: "Free backup software to store encrypted backups online."
 type: "sw.application"
 assets:
-  - url: "https://github.com/balenablocks/duplicati"
-    name: "repository"
-  - url: "https://raw.githubusercontent.com/balenablocks/duplicati/main/logo.png"
-    name: "logo"
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/balenablocks/duplicati"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://raw.githubusercontent.com/balenablocks/duplicati/main/logo.png"
 data:
-  description: "Free backup software to store encrypted backups online."
   defaultDeviceType: "raspberrypi3"
   supportedDeviceTypes:
     - "raspberrypi4-64"
