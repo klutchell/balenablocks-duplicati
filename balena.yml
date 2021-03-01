@@ -1,5 +1,6 @@
-name: "duplicati"
+çname: "duplicati"
 description: "Free backup software to store encrypted backups online."
+version: x.x.x
 type: "sw.application"
 assets:
   repository:
