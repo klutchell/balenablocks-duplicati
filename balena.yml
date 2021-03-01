@@ -1,23 +1,23 @@
-çname: "duplicati"
-description: "Free backup software to store encrypted backups online."
-version: x.x.x
-type: "sw.application"
+çname: duplicati
+description: Free backup software to store encrypted backups online.
+version: 0.0.3
+type: sw.application
 assets:
   repository:
-    type: "blob.asset"
+    type: blob.asset
     data:
-      url: "https://github.com/balenablocks/duplicati"
+      url: 'https://github.com/balenablocks/duplicati'
   logo:
-    type: "blob.asset"
+    type: blob.asset
     data:
-      url: "https://raw.githubusercontent.com/balenablocks/duplicati/main/logo.png"
+      url: 'https://raw.githubusercontent.com/balenablocks/duplicati/main/logo.png'
 data:
-  defaultDeviceType: "raspberrypi3"
+  defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
-    - "raspberrypi4-64"
-    - "fincm3"
-    - "raspberrypi3"
-    - "raspberrypi3-64"
-    - "raspberrypi400-64"
-    - "intel-nuc"
-    - "genericx86-64-ext"
+    - raspberrypi4-64
+    - fincm3
+    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi400-64
+    - intel-nuc
+    - genericx86-64-ext
